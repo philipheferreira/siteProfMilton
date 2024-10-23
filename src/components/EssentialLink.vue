@@ -1,15 +1,7 @@
 <template>
-  <q-item
-    clickable
-    tag="a"
-    target="_blank"
-    :href="link"
-  >
-    <q-item-section
-      v-if="icon"
-      avatar
-    >
-      <q-icon :name="icon" />
+  <q-item clickable tag="a" :to="transacoes">
+    <q-item-section v-if="icon" avatar>
+      <q-icon :name="icon" clickable :to="transacoes" />
     </q-item-section>
 
     <q-item-section>
@@ -35,12 +27,11 @@ export default defineComponent({
       default: ''
     },
 
-    link: {
-      type: String,
-      default: '#'
-    },
-
     icon: {
+      type: String,
+      default: ''
+    },
+    transacoes: {
       type: String,
       default: ''
     }

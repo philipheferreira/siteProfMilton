@@ -36,14 +36,14 @@ const linksList = [
   {
     title: 'Pagina Inicial',
     caption: 'quasar.dev',
-    icon: 'school',
-    link: ''
+    icon: 'search',
+    transacoes: '/'
   },
   {
     title: 'Video Aulas',
     caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: ''
+    icon: 'school',
+    transacoes: 'videos'
   }
 ]
 
