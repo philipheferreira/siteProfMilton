@@ -35,13 +35,13 @@ import EssentialLink from 'components/EssentialLink.vue'
 const linksList = [
   {
     title: 'Pagina Inicial',
-    caption: 'quasar.dev',
+    caption: '',
     icon: 'search',
     transacoes: '/'
   },
   {
     title: 'Video Aulas',
-    caption: 'github.com/quasarframework',
+    caption: '',
     icon: 'school',
     transacoes: 'videos'
   }
