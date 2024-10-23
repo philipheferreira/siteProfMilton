@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div>
+    <div class="row q-ma-md">
+
       <q-card class="my-card q-ma-md">
 
         <q-video src="https://www.youtube.com/embed/iumsSe2783I" />
@@ -16,6 +17,91 @@
         </q-card-section>
 
       </q-card>
+
+      <q-card class="my-card q-ma-md">
+
+        <q-video src="https://www.youtube.com/embed/HM_ZgRcvlkE?si=0g5tdjcVeLO8ikiY" />
+
+        <q-card-section>
+
+
+        </q-card-section>
+
+        <q-card-section>
+
+
+        </q-card-section>
+
+        <q-card-section>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </q-card-section>
+
+      </q-card>
+
+      <q-card class="my-card q-ma-md">
+
+        <q-video src="https://www.youtube.com/embed/obHRPGgcQNo?si=BCtPf3K94uonD4ms" />
+
+        <q-card-section>
+
+
+        </q-card-section>
+
+        <q-card-section>
+
+
+        </q-card-section>
+
+        <q-card-section>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </q-card-section>
+
+      </q-card>
+
+      <q-card class="my-card q-ma-md">
+
+        <q-video src="https://www.youtube.com/embed/k3_tw44QsZQ?rel=0" />
+
+        <q-card-section>
+
+
+        </q-card-section>
+
+        <q-card-section>
+
+
+        </q-card-section>
+
+        <q-card-section>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </q-card-section>
+
+      </q-card>
+
+      <q-card class="my-card q-ma-md">
+
+        <q-video src="https://www.youtube.com/embed/k3_tw44QsZQ?rel=0" />
+
+        <q-card-section>
+
+
+        </q-card-section>
+
+        <q-card-section>
+
+
+        </q-card-section>
+
+        <q-card-section>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </q-card-section>
+
+      </q-card>
+
     </div>
   </div>
 
