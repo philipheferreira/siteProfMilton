@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md">
     <q-table class="my-sticky-header-column-table" flat bordered title="Horário aulas" :rows="rows" :columns="columns"
-      row-key="name" />
+      row-key="name" virtual-scroll />
   </div>
 </template>
 
@@ -10,7 +10,7 @@ const columns = [
   {
     name: 'name',
     required: true,
-    label: 'Dessert (100g serving)',
+    label: 'Horarios/Dias',
     align: 'left',
     field: row => row.name,
     format: val => `${val}`,
@@ -27,7 +27,7 @@ const columns = [
 
 const rows = [
   {
-    name: 'Frozen Yogurt',
+    name: '08:00',
     segunda: '--',
     terca: '--',
     quarta: '--',
@@ -37,7 +37,7 @@ const rows = [
     domingo: '--'
   },
   {
-    name: 'Ice cream sandwich',
+    name: '09:00',
     segunda: '--',
     terca: '--',
     quarta: '--',
@@ -47,7 +47,7 @@ const rows = [
     domingo: '--'
   },
   {
-    name: 'Eclair',
+    name: '10:00',
     segunda: '--',
     terca: '--',
     quarta: '--',
@@ -57,7 +57,7 @@ const rows = [
     domingo: '--'
   },
   {
-    name: 'Cupcake',
+    name: '11:00',
     segunda: '--',
     terca: '--',
     quarta: '--',
@@ -67,7 +67,7 @@ const rows = [
     domingo: '--'
   },
   {
-    name: 'Gingerbread',
+    name: '12:00',
     segunda: '--',
     terca: '--',
     quarta: '--',
@@ -77,7 +77,7 @@ const rows = [
     domingo: '--'
   },
   {
-    name: 'Jelly bean',
+    name: '13:00',
     segunda: '--',
     terca: '--',
     quarta: '--',
@@ -87,7 +87,7 @@ const rows = [
     domingo: '--'
   },
   {
-    name: 'Lollipop',
+    name: '14:00',
     segunda: '--',
     terca: '--',
     quarta: '--',
@@ -97,7 +97,7 @@ const rows = [
     domingo: '--'
   },
   {
-    name: 'Honeycomb',
+    name: '15:00',
     segunda: '--',
     terca: '--',
     quarta: '--',
@@ -107,7 +107,7 @@ const rows = [
     domingo: '--'
   },
   {
-    name: 'Donut',
+    name: '16:00',
     segunda: '--',
     terca: '--',
     quarta: '--',
@@ -117,7 +117,47 @@ const rows = [
     domingo: '--'
   },
   {
-    name: 'KitKat',
+    name: '17:00',
+    segunda: '--',
+    terca: '--',
+    quarta: '--',
+    quinta: '--',
+    sexta: '--',
+    sabado: '--',
+    domingo: '--'
+  },
+  {
+    name: '18:00',
+    segunda: '--',
+    terca: '--',
+    quarta: '--',
+    quinta: '--',
+    sexta: '--',
+    sabado: '--',
+    domingo: '--'
+  },
+  {
+    name: '19:00',
+    segunda: '--',
+    terca: '--',
+    quarta: '--',
+    quinta: '--',
+    sexta: '--',
+    sabado: '--',
+    domingo: '--'
+  },
+  {
+    name: '20:00',
+    segunda: '--',
+    terca: '--',
+    quarta: '--',
+    quinta: '--',
+    sexta: '--',
+    sabado: '--',
+    domingo: '--'
+  },
+  {
+    name: '21:00',
     segunda: '--',
     terca: '--',
     quarta: '--',
