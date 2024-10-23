@@ -145,7 +145,7 @@ export default {
 
   /* specifying max-width so the example can
     highlight the sticky column on any browser window */
-  width: auto
+  max-width: 900px
 
   td:first-child
     /* bg color is important for td; just specify one */
