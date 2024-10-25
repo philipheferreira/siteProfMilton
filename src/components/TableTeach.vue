@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <q-markup-table flat bordered>
+    <q-markup-table flat bordered class="tabela">
       <thead class="bg-teal">
         <tr>
           <th colspan="8"> <!-- Faz com que preencha todos os 8 espaços laterais da tabela -->
@@ -151,6 +151,9 @@ export default {
 }
 </script>
 
-<style lang="sass">
-
+<style>
+.tabela {
+  max-width: 700px;
+  max-height: 690px;
+}
 </style>

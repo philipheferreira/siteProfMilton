@@ -3,11 +3,11 @@
 
     <div>
 
-      <div class="q-px-lg q-py-md">
+      <div class="q-px-lg q-py-md column flex-center">
 
         <img alt="Quasar logo"
           src="https://www.unijui.edu.br/arquivos/tinyMCE4/comunica1/rotina%20de%20estudos%202023.png"
-          style="height: 300px; width: 300px;" class="q-ma-md" />
+          style="height: 300px; width: 300px;" class=" q-ma-md" />
         <p>Professor: Milton Nascimento</p>
 
       </div>

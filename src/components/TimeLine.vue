@@ -1,5 +1,5 @@
 <template>
-  <div class="q-px-lg q-py-md">
+  <div class="tabela">
     <q-timeline :layout="layout" color="secondary">
       <q-timeline-entry heading>
         Linha do tempo Profissional
