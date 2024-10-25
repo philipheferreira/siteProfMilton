@@ -1,7 +1,12 @@
 <template>
   <div class="q-pa-md">
-    <q-markup-table>
-      <thead>
+    <q-markup-table flat bordered>
+      <thead class="bg-teal">
+        <tr>
+          <th colspan="8"> <!-- Faz com que preencha todos os 8 espaços laterais da tabela -->
+            <div class="text-h4 q-ml-md text-white">Horarios disponiveis para aula</div>
+          </th>
+        </tr>
         <tr>
           <th class="text-left">Horarios / Dias da semana</th>
           <th class="text-right">Segunda</th>
