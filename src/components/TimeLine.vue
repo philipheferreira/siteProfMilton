@@ -35,13 +35,13 @@
         color="orange" icon="done_all">
       </q-timeline-entry>
 
-      <q-timeline-entry title="Event Title" subtitle="02 de janeiro de 2020" side="right">
+      <q-timeline-entry title="Faculdade Católica" subtitle="02 de janeiro de 2020" side="right">
         <div>
           aperfeiçoamento pessoal em matéria de religião com cursos de extensão da faculdade católica
         </div>
       </q-timeline-entry>
 
-      <q-timeline-entry title="Event Title" subtitle="02 de janeiro de 2021" side="left">
+      <q-timeline-entry title="Experiencias Praticas Docentes" subtitle="02 de janeiro de 2021" side="left">
         <div>
           Entendimento de que os problemas dos alunos passavam por não entender problemas matemáticos, traduzir para a
           linguagem matemática e montar um plano de resolução no qual soubessem descrever o porquê.
