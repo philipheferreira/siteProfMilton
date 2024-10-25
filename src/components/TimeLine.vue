@@ -3,18 +3,12 @@
     <q-timeline :layout="layout" color="secondary">
       <q-timeline-entry heading>
         Linha do tempo Profissional
-        <br>
-        ({{ $q.screen.lt.sm ? 'Dense' : ($q.screen.lt.md ? 'Comfortable' : 'Loose') }} layout)
       </q-timeline-entry>
 
       <q-timeline-entry title="Início da Graduação em Licenciatura" subtitle="01 de janeiro de 2015" side="left">
-        <div>
-          Início da Graduação em Licenciatura
-        </div>
       </q-timeline-entry>
 
-      <q-timeline-entry title="Primeiras aulas Particulares" subtitle="02 de janeiro de 2016" side="right"
-        icon="delete">
+      <q-timeline-entry title="Primeiras Turmas Particulares" subtitle="02 de janeiro de 2016" side="right">
         <div>
           Comecei a dar aulas particulares a alunos do ensino fundamental II
         </div>
@@ -22,13 +16,13 @@
 
       <!--<q-timeline-entry heading>November, 2017</q-timeline-entry> -->
 
-      <q-timeline-entry title="Event Title" subtitle="02 de janeiro de 2017" side="left">
+      <q-timeline-entry title="Turmas do Ensino Médio" subtitle="02 de janeiro de 2017" side="left">
         <div>
-          comecei a ministrar também aulas para alunos do ensino médio e participei de projeto de iniciação científic
+          comecei a ministrar também aulas para alunos do ensino médio e participei de projeto de iniciação científica
         </div>
       </q-timeline-entry>
 
-      <q-timeline-entry title="Event Title" subtitle="02 de janeiro de 2018" side="right">
+      <q-timeline-entry title="Projeto Análise" subtitle="02 de janeiro de 2018" side="right">
         <div>
           comecei a participar do projeto que viria a se chamar Análise e atendia alunos com objetivo de realizar a
           prova
@@ -37,10 +31,8 @@
         </div>
       </q-timeline-entry>
 
-      <q-timeline-entry title="Event Title" subtitle="02 de janeiro de 2019" side="left" color="orange" icon="done_all">
-        <div>
-          Diploma em Licenciatura plena em Matemática
-        </div>
+      <q-timeline-entry title="Diploma em Licenciatura plena em Matemática" subtitle="02 de janeiro de 2019" side="left"
+        color="orange" icon="done_all">
       </q-timeline-entry>
 
       <q-timeline-entry title="Event Title" subtitle="02 de janeiro de 2020" side="right">
@@ -56,7 +48,7 @@
         </div>
       </q-timeline-entry>
 
-      <q-timeline-entry title="Event Title" subtitle="02 de janeiro de 2022" side="right">
+      <q-timeline-entry title="EAM" subtitle="02 de janeiro de 2022" side="right">
         <div>
           Conheci a EAM (Experiência da Aprendizagem Mediada) elaborada por Reuven Feuerstein onde ele mostra os
           aspectos ambientais necessários para a educação e os métodos de mediação para ajudar o professor no auxilio
@@ -64,7 +56,7 @@
         </div>
       </q-timeline-entry>
 
-      <q-timeline-entry title="Event Title" subtitle="02 de janeiro de 2023" side="left">
+      <q-timeline-entry title="Teoria de Resolução de Problemas" subtitle="02 de janeiro de 2023" side="left">
         <div>
           Contato com a teoria RP (Resolução de Problemas) a qual deu uma resposta ao problema em que encontrei na
           dificuldade dos meus alunos em conseguir aprender a matemática e mostrou como torna-lá relevante para a
