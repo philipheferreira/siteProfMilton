@@ -7,7 +7,7 @@
             <div class="text-h4 q-ml-md text-white">Horarios disponiveis para aula</div>
           </th>
         </tr>
-        <tr>
+        <tr class="text-white">
           <th class="text-left">Horarios / Dias da semana</th>
           <th class="text-right">Segunda</th>
           <th class="text-right">Terça</th>
