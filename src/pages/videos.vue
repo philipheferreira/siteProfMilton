@@ -1,5 +1,10 @@
 <template>
-  <div>
+  <div class="column">
+
+    <div class="text-body1 flex justify-center q-mt-xl">
+      Informações sobre os videos
+    </div>
+
     <div class="row q-ma-md">
 
       <q-card class="my-card q-ma-md">
